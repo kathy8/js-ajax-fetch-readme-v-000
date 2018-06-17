@@ -1,6 +1,6 @@
-const app = "I don't do much.";
 
-const app = "I don't do much.";	+const token = 'YOUR_TOKEN_HERE'
+-const app = "I don't do much.";
+const token = 'YOUR_TOKEN_HERE'
 fetch('https://api.github.com/user/repos', {
   headers: {
     Authorization: `token ${token}`
